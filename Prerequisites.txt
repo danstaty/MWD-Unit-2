@@ -1,0 +1,16 @@
+https://groups.google.com/forum/#!topic/modernweb112314/KljA6ddJ97M
+
+Hi everyone!
+
+Handouts for Unit 2 can be downloaded here: https://www.dropbox.com/s/9fckj5i1nmn61qq/Unit2_Handouts.zip?dl=0
+
+Please, install following software on your machines before the class:
+Node.js. Installers for various platforms can be found here. For those who prefer package managers there is an official instruction. For OS X users I recommend Homebrew version (the official installer causes various issues with permissions).
+npm. Make sure npm (node package manager) has been installed along with Node.js and both commands are available in your console: node, npm.
+AngularJS plugin for Idea. The plugin is here. To install plugin, launch IntelliJ Idea, click IntelliJ Idea -> Preferences in the main menu (File -> Settings on Windows), in the opened Preferences window choose Plugins item on the left panel, click Browse repositories... button on the right, find AngularJS plugin in the list, and click green Install plugin button. After installing the plugin you should be able to see it in the list of installed plugin. Make sure the plugin is enabled. Please see here: http://take.ms/5ihh4
+AngularJS Batarang extension for Chrome. In order to install it, open this link in the Google Chrome browser and click  + FREE  button.
+Make sure everything is installed and all issues are resolved (if any) before the class. Let me know if you have any problems with the software.
+
+Thanks!
+Anton
+
