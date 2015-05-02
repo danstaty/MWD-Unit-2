@@ -10,6 +10,7 @@
             .then(function (data) {_this.products = data});
 
     }
-    HomeController.$inject = ['ProductService']; // с помощью $inject мы просим ангуляр добавить зависимость внутрь нашей конструктор функции
+    HomeController.$inject = ['ProductService']; /*с помощью $inject мы просим ангуляр добавить зависимость внутрь
+    нашей конструктор функции*/
     angular.module('auction').controller('HomeController', HomeController);
 }());

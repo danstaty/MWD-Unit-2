@@ -2,6 +2,7 @@
 (function (){ //объявляем анонимную self-executable функцию
     'use strict'; //объявляем директиву
 
-    angular.module('auction', []);
+    angular.module('auction', []); //создаем основной модуль нашего приложения
+
 
 }());
