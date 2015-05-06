@@ -7,14 +7,18 @@
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-    <!-- build:css(.) styles/vendor.css -->
-    <!-- bower:css -->
-    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <!-- build:css(.) styles/vendor.css --> <!--Все элементы которые мы расположем ниже, между
+    bower:ss и endbower  будут сжаты и помещены в файл vendor.css-->
+    <!-- bower:css --> 
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" /> <!--сюда
+    помещаем файлы которые обрабатываются бауером, все сторонние будут удалены-->
     <!-- endbower -->
+    <!--сюда мы можем поместить сторонние файлы .css-->
     <!-- endbuild -->
-
-    <!-- build:css(.tmp) styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
+    
+    <!-- build:css(.tmp) styles/main.css --> <!--(.tmp) - искать дополнительно в папке /tmp-->
+    <link rel="stylesheet" href="styles/main.css"> <!--сюда мы помещаем наши .css файлы, 
+    самописные-->
     <!-- endbuild -->
   </head>
   <body>
