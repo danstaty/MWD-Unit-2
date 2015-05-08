@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="auction">
+<html ng-app="auction"> <!--имя дерективы должно совпадать с именем основного модуля-->
 <head lang="en">
     <meta charset="UTF-8">
     <title>Auction</title>
@@ -28,7 +28,7 @@
                         <input type="text" class="form-control" placeholder="Enter product name">
                     </div>
                     <a href="javascript:void(0)" ng-click="currentView = 'search'" class="btn btn-default">Search</a><!--
-                в этой строке при нажатии на кнопку home начинает работать описанный ниже контейнер, в котором есть
+                вэтой строке при нажатии на кнопку home начинает работать описанный ниже контейнер, в котором есть
                 такая переменная currentView и прописана деректива ng-include - которая залазит в папку views и меняет
                 при нажатии странички находящиеся в этой папке-->
                 </form>

@@ -17,7 +17,7 @@
 
     /** Returns the list of all available products on the server. */
     getProducts: function () { //getProducts - имя которое мы задаем для метода, а дальше идет реализация
-      return this.$http.get('/data/products-featured.json')/* здесь, внутри функции function, объявленной выше, можем
+      return this.$http.get('data/products-featured.json')/* здесь, внутри функции function, объявленной выше, можем
       получить доступ к экземпляру нашего ProductService. Если бы мы не опубликовали $http сервис (строчка this.$http = $http;
       на экземпляр нашего ProductService мы бы никак не смогли дотянуться до переменной var ProductService. Т.е. выше
       мы опубликовали $http сервиc, а здесь мы его вызываем. У $http сервиса есть метод .get, который позволяет по
@@ -31,7 +31,7 @@
       * NOTE: Search criteria are not implemented yet.
       */
     find: function () { //здес все происходит по аналогии с getProducts
-      return this.$http.get('/data/products-search.json')
+      return this.$http.get('data/products-search.json')
           .then(function (resp) { return resp.data; });
     }
   };
